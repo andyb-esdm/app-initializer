@@ -1,0 +1,14 @@
+<p>page-two works!</p>
+<p>Permissions:</p>
+<ul>
+    <li *ngFor="let permission of permissions">
+        {{permission}}
+    </li>
+</ul>
+<p>Layer Configuration:</p>
+<ul>
+    <li *ngFor="let config of layerConfiguration">
+        {{config}}
+    </li>
+</ul>
+<a routerLink="/page-one">Back to my details ...</a>
